@@ -92,11 +92,13 @@ data/
 
 ## 5. Prepare bound stage
 
-## 6. Create single topology
+## 6. Minimise and heat both stages
 
-## 7. Prepare RBFE 
+## 7. Create single topology
 
-## 8. Run RBFE
+## 8. Prepare RBFE 
 
-## 9. Analyse
+## 9. Run RBFE
+
+## 10. Analyse
 
