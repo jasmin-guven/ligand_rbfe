@@ -1,0 +1,21 @@
+Setting the LD random seed to 2111831994
+
+Generated 1035 of the 1035 non-bonded parameter combinations
+
+Generated 1035 of the 1035 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'MOL'
+
+Excluding 3 bonded neighbours molecule type 'kpc2'
+
+Excluding 3 bonded neighbours molecule type 'SOL'
+
+Taking velocities from 'solvated.gro', all velocities are zero
+Analysing residue names:
+There are:     1      Other residues
+There are:   270    Protein residues
+There are: 197152      Water residues
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+Analysing Protein...
+
+This run will generate roughly 45 Mb of data

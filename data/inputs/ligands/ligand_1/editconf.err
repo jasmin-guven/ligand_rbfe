@@ -1,0 +1,11 @@
+                     :-) GROMACS - gmx editconf, 2026.1 (-:
+
+Executable:   /usr/local/gromacs/bin/gmx
+Data prefix:  /usr/local/gromacs
+Working dir:  /Users/af25016/projects/ligand_rbfe/data/inputs/ligands/ligand_1
+Command line:
+  gmx editconf -f input.gro -bt triclinic -box 12.731700 12.731700 12.731700 -angles 90.000000 90.000000 90.000000 -noc -noprinc -o box.gro
+
+
+GROMACS reminds you: "Nothing in biology makes sense except in the light of evolution." (Theodosius Dobzhansky)
+

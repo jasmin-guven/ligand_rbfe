@@ -1,0 +1,11 @@
+                     :-) GROMACS - gmx editconf, 2026.1 (-:
+
+Executable:   /usr/local/gromacs/bin/gmx
+Data prefix:  /usr/local/gromacs
+Working dir:  /Users/af25016/projects/ligand_rbfe/data/inputs/ligands/ligand_2
+Command line:
+  gmx editconf -f input.gro -bt triclinic -box 12.836900 12.836900 12.836900 -angles 90.000000 90.000000 90.000000 -noc -noprinc -o box.gro
+
+
+GROMACS reminds you: "Every revolutionary idea seems to evoke three stages of reaction. They may be summed up by the phrases: (1) It's completely impossible. (2) It's possible, but not worth doing. (3) I said it was a good idea all along." (Arthur C. Clarke)
+

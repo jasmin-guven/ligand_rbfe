@@ -1,0 +1,33 @@
+                     :-) GROMACS - gmx solvate, 2026.1 (-:
+
+Executable:   /usr/local/gromacs/bin/gmx
+Data prefix:  /usr/local/gromacs
+Working dir:  /Users/af25016/projects/ligand_rbfe/data/inputs/protein/bound_ligand_2
+Command line:
+  gmx solvate -cs spc216 -cp box.gro -o output.gro
+
+Reading solute configuration
+Reading solvent configuration
+
+Initialising inter-atomic distances...
+Generating solvent configuration
+Will generate new solvent configuration of 10x10x10 boxes
+Solvent box contains 637260 atoms in 212420 residues
+Removed 42072 solvent atoms due to solvent-solvent overlap
+Removed 3729 solvent atoms due to solute-solvent overlap
+Sorting configuration
+Found 1 molecule type:
+    SOL (   3 atoms): 197153 residues
+Generated solvent containing 591459 atoms in 197153 residues
+Writing generated configuration to output.gro
+
+Back Off! I just backed up output.gro to ./#output.gro.1#
+
+Output configuration contains 595505 atoms in 197424 residues
+Volume                 :     6043.58 (nm^3)
+Density                :      984.37 (g/l)
+Number of solvent molecules:  197153   
+
+
+GROMACS reminds you: "Whatever Happened to Pong ?" (F. Black)
+
