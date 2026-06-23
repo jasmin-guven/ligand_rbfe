@@ -1,0 +1,18 @@
+Info: acdoctor mode is on: check and diagnose problems in the input file.
+Info: The atom type is set to 2; the options available to the -at flag are
+      gaff, gaff2, amber, bcc, abcg2, and sybyl.
+
+-- Check Format for sdf File --
+   Status: pass
+Info: Determining atomic numbers from atomic symbols which are case sensitive.
+Running: /Users/af25016/miniforge3/envs/obss/bin/bondtype -j full -i ANTECHAMBER_BOND_TYPE.AC0 -o ANTECHAMBER_BOND_TYPE.AC -f ac
+
+Running: /Users/af25016/miniforge3/envs/obss/bin/atomtype -i ANTECHAMBER_AC.AC0 -o ANTECHAMBER_AC.AC -p 2
+Info: Total number of electrons: 140; net charge: -1
+
+Running: /Users/af25016/miniforge3/envs/obss/bin/sqm -O -i sqm.in -o sqm.out
+
+Running: /Users/af25016/miniforge3/envs/obss/bin/am1bcc -i ANTECHAMBER_AM1BCC_PRE.AC -o ANTECHAMBER_AM1BCC.AC -f ac -t bcc -p /Users/af25016/miniforge3/envs/obss/dat/antechamber/BCCPARM.DAT -s 2 -j 1
+
+Running: /Users/af25016/miniforge3/envs/obss/bin/atomtype -f ac -p bcc -o ANTECHAMBER_AM1BCC.AC -i ANTECHAMBER_AM1BCC_PRE.AC
+
