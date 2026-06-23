@@ -65,6 +65,29 @@ BioSimSpace uses GROMACS for solvation by default, so if you want to solvate you
 
 ## 3. Prepare network
 
+You can create the perturbation network with the Jupyter notebook [`01_setup_network.ipynb`](https://github.com/jasmin-guven/ligand_rbfe/blob/95e8f274b2a02c7b642376abb86d2a76b8ca9e93/01_setup_network.ipynb).
+
+This will create three more folders in the inputs directory: 
+
+```
+data/
+|---- inputs/
+|    |---- ligands/
+|    |    |---- ligand_1.sdf           Input ligand SDF file for ligand 1
+|    |    |---- ligand_2.sdf           Input ligand SDF file for ligand 2
+|    |    |---- images/                Directory created by lomap
+|    |    |    |---- network.png       Image of the network    
+|    |    |---- inputs/                Directory created by lomap
+|    |    |    |---- 000_ligand_1.sdf  Input files processed by lomap
+|    |    |---- outputs/               Directory created by lomap
+|    |    |    |---- network.csv       Network saved a csv file
+|    |    |    |---- lomap_score_with_connection.txt   Lomap output
+|    |    |    |---- lomap.pickle      Lomap output
+|    |    |    |---- lomap.txt         Lomap output
+|    |---- protein/
+|    |    |---- kpc2.prepared.pdb      Prepared protein PDB file
+```
+
 ## 4. Prepare unbound stage
 
 ## 5. Prepare bound stage
