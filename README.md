@@ -33,7 +33,13 @@ You can install Amber [here](https://ambermd.org/Installation.php)
 
 1. **Starting structures**
 
-Start with a prepared protein (or other target) system. This means choosing a good-quality starting structure (ideally with at least one ligand bound pose), determining the protonation states of amino acid side chains, fixing missing residues/chains and determining the protonation states of your ligands. Decide if you want to include protein terminal residues, and how you deal with co-factors such as metals. You can use [meze](https://github.com/meyresearch/meze/tree/main) to parameterise zinc-metalloenzymes. 
+- Start with a prepared protein (or other target) system: 
+    - Choose a good-quality starting structure (ideally with at least one ligand bound pose), 
+    - Determine the protonation states of amino acid side chains, 
+    - Fix missing residues/chains
+    - And determine the protonation states of your ligands.
+- For a ligand series, it's best to start from the coordinates of a single bound pose of a ligand to which all the other ligands are aligned 
+- Decide if you want to include protein terminal residues, and how you deal with co-factors such as metals. You can use [meze](https://github.com/meyresearch/meze/tree/main) to parameterise zinc-metalloenzymes. 
 
 2. **Directory structure**
 
