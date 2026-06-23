@@ -1,11 +1,8 @@
-# gmx editconf was run with the following command:
-/usr/local/gromacs/bin/gmx editconf -f input.gro -bt triclinic -box 12.836900 12.836900 12.836900 -angles 90.000000 90.000000 90.000000 -noc -noprinc -o box.gro
+# Antechamber was run with the following command:
+/Users/af25016/miniforge3/envs/obss/bin/antechamber -at 2 -i antechamber.sdf -fi sdf -o antechamber.mol2 -fo mol2 -c bcc -s 2 -nc -1
 
-# gmx solvate was run with the following command:
-/usr/local/gromacs/bin/gmx solvate -cs spc216 -cp box.gro -o output.gro
+# ParmChk was run with the following command:
+/Users/af25016/miniforge3/envs/obss/bin/parmchk2 -s 2 -i antechamber.mol2 -f mol2 -o antechamber.frcmod
 
-# gmx grompp was run with the following command:
-/usr/local/gromacs/bin/gmx grompp -f ions.mdp -po ions.out.mdp -c solvated.gro -p solvated.top -o ions.tpr
-
-# gmx genion was run with the following command:
-/usr/local/gromacs/bin/gmx genion -s ions.tpr -o solvated_ions.gro -p solvated.top -neutral -conc 0.150000
+# tLEaP was run with the following command:
+/Users/af25016/miniforge3/envs/obss/bin/tleap -f leap.txt
